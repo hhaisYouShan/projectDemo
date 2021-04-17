@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 54</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C5D4FF" offset="0%"></stop>
+            <stop stop-color="#93A9FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0CA4FF" offset="0%"></stop>
+            <stop stop-color="#056BFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#0061E8" offset="0%"></stop>
+            <stop stop-color="#0032CC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#0061E8" offset="0%"></stop>
+            <stop stop-color="#0032CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页✅" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="手机版首页" transform="translate(-408.000000, -1892.000000)">
+            <g id="编组-54" transform="translate(408.000000, 1892.000000)">
+                <g id="Icon/Product+bg/Bare-Metal-Cloud-Center备份">
+                    <g id="编组">
+                        <rect id="矩形备份-17" x="0" y="0" width="160" height="160"></rect>
+                        <path d="M110.826745,18.6666667 L49.172884,18.6666667 C46.4292837,18.6666667 43.8938766,20.1366802 42.522571,22.5224723 L11.6951459,76.1441943 C10.3238403,78.5299865 10.3238403,81.4700135 11.6951459,83.8558057 L42.522571,137.477528 C43.8938766,139.86332 46.4292837,141.333333 49.172884,141.333333 L110.826745,141.333333 C113.570345,141.333333 116.105753,139.86332 117.477058,137.477528 L148.304483,83.8558057 C149.676283,81.4700135 149.676283,78.5299865 148.304483,76.1441943 L117.477058,22.5224723 C116.105753,20.1366802 113.570345,18.6666667 110.826745,18.6666667" id="Fill-1备份-4" fill="#E7EAFF"></path>
+                    </g>
+                    <g id="编组-5" transform="translate(12.500000, 13.333333)">
+                        <rect id="矩形" x="0" y="0" width="133.333333" height="133.333333"></rect>
+                        <g id="绿cloudwan" transform="translate(0.000000, 19.753086)">
+                            <ellipse id="椭圆形" fill="url(#linearGradient-1)" transform="translate(66.595021, 48.307548) rotate(-19.090000) translate(-66.595021, -48.307548) " cx="66.5950214" cy="48.3075482" rx="61.0650675" ry="26.1877326"></ellipse>
+                            <path d="M78.2970455,1.38551182 C63.6693527,-2.43083528 48.1217921,1.76148061 37.3619512,12.4234393 C26.6021103,23.085398 22.2152649,38.6461449 25.8118481,53.3932518 L25.8118481,53.3932518 C30.8242841,73.8443171 49.8149453,87.6602149 70.7188319,86.0635359 C91.6227185,84.466857 108.316091,67.9253443 110.193445,46.9480236 C112.070798,25.9707028 98.582168,6.70282622 78.2970455,1.38551182 L78.2970455,1.38551182 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                            <ellipse id="椭圆形-3" fill="url(#linearGradient-3)" transform="translate(67.512376, 43.017345) rotate(-19.510000) translate(-67.512376, -43.017345) " cx="67.5123756" cy="43.0173449" rx="42.8847089" ry="16.3130576"></ellipse>
+                            <ellipse id="椭圆形-5" fill="#FFFFFF" transform="translate(66.891950, 43.022233) rotate(-19.420000) translate(-66.891950, -43.022233) " cx="66.8919504" cy="43.0222327" rx="19.1307195" ry="7.12181477"></ellipse>
+                            <ellipse id="椭圆形-4" fill="url(#linearGradient-4)" transform="translate(104.646756, 64.891195) rotate(-67.500000) translate(-104.646756, -64.891195) " cx="104.646756" cy="64.8911949" rx="10.9276167" ry="10.891739"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <rect id="矩形" x="0" y="0" width="160" height="160"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

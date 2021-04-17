@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="993px" viewBox="0 0 1920 993" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Real results bg</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="993"></rect>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.937255 0 0 0 0 0.701961 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFF6C3" offset="0%"></stop>
+            <stop stop-color="#FFE995" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-2.48949813e-15%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F5F6FF" offset="0%"></stop>
+            <stop stop-color="#EEF0FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页*" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(0.000000, 3.000000)">
+            <g id="Real-results-bg" transform="translate(0.000000, -3.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g id="编组-2" mask="url(#mask-2)">
+                    <g transform="translate(138.000000, 332.000000)">
+                        <g filter="url(#filter-3)" fill="none" id="bg" opacity="0.501534598" stroke-width="1">
+                            <g transform="translate(0.000000, 382.000000)">
+                                <path d="M191,0 C296.486387,0 382,85.5136128 382,191 C382,296.486387 296.486387,382 191,382 C85.5136128,382 0,296.486387 0,191 C0,85.5136128 85.5136128,0 191,0 Z M192.5,63 C122.083694,63 65,119.859837 65,190 C65,260.140163 122.083694,317 192.5,317 C262.916306,317 320,260.140163 320,190 C320,119.859837 262.916306,63 192.5,63 Z" id="形状结合" fill="url(#linearGradient-4)"></path>
+                            </g>
+                        </g>
+                        <path d="M1593.18706,14 L1487.81231,14 C1483.12313,14 1478.78977,16.5046154 1476.44603,20.5695385 L1423.75781,111.930462 C1421.41406,115.995385 1421.41406,121.004615 1423.75781,125.069538 L1476.44603,216.430462 C1478.78977,220.495385 1483.12313,223 1487.81231,223 L1593.18706,223 C1597.87624,223 1602.20959,220.495385 1604.55334,216.430462 L1657.24156,125.069538 C1659.58615,121.004615 1659.58615,115.995385 1657.24156,111.930462 L1604.55334,20.5695385 C1602.20959,16.5046154 1597.87624,14 1593.18706,14" id="Fill-1" fill="url(#linearGradient-5)" transform="translate(1540.500000, 118.500000) rotate(90.000000) translate(-1540.500000, -118.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

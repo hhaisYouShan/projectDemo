@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- <script src="./js/component---src-pages-index-tsx-0f7377b580b5525166ee.js" async=""></script> -->
+
+
+  <meta name="generator" content="Gatsby 2.21.37" />
+  <title data-react-helmet="true">寰信 | 全球领先的边缘云服务提供商</title>
+  <meta data-react-helmet="true" charSet="utf-8" />
+  <meta data-react-helmet="true" name="viewport" content="width = 640" initial-scale="1" />
+  <link href="./css/index.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- <link href="./css/index2.css" rel="stylesheet" type="text/css" media="all" /> -->
+  <!-- <link href="./css/slide.css" rel="stylesheet" type="text/css" media="all" /> -->
+  <script src="./js/jqueryv3.6.0.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+  <div id="___gatsby">
+    <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div>
+        <div class="index-topContainer" id="head">
+        </div>
+        <div id="news">  
+        </div>
+        <div class="website-footer" id="footer">
+        </div>
+
+      </div>
+
+    </div>
+    <script>
+      document.write("<s" + "cript type='text/javascript' src='./js/ajax.js?" + "run=" + Math.random() + "'></s" + "cript>");
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#head").load("top.html")
+        $("#footer").load("footer.html")
+        //获取url 参数
+        function getUrlKey(name) {
+          let key, keyword = new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href);
+          key = keyword ? decodeURIComponent(keyword[1].replace(/\+/g, '%20')) : '';
+          return key;
+          // return decodeURIComponent(new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href)[1].replace(/\+/g, '%20')) || '';
+        }
+
+        let order_id = parseInt(getUrlKey('productId'));
+        getProductDetail(order_id)
+      })
+    </script>
+
+
+</body>
+<script>
+  //  <!--模版1-->
+  //       <div class="fadeInUp"
+  //         style="background-image:url('https://www.reminisce.cn/huanxin/upload/WechatIMG1964.jpeg'); background-position:center top">
+  //         <div class="banner-topIntro page-middle" style="height: 500px;position: relative;">
+  //           <h1 class="banner-topIntro-title semi-bold">全球智能加速器</h1>
+  //           <div class="font-20 mt-24 semi-bold subtitle">降低应用程序延迟，覆盖全球范围的动态内容加速</div>
+  //           <div class="banner-topIntro-desc font-20 mt-36" style="max-width: 544px;">
+  //             通过降低应用程序及动态内容的延迟来改善数字体验，提高用户满意度及企业营收</div>
+  //         </div>
+  //       </div>
+
+  //       <!--模版2-->
+  //       <div class="fadeInUp"
+  //         style="background-image:url('https://www.reminisce.cn/huanxin/upload/WechatIMG1964.jpeg'); background-position:center top">
+  //         <div class="banner-topIntro page-middle" style="height: 500px;position: relative;text-align: center;">
+  //           <h1 class="banner-topIntro-title semi-bold">全球智能加速器</h1>
+  //           <div class="font-20 mt-24 semi-bold subtitle">降低应用程序延迟，覆盖全球范围的动态内容加速</div>
+  //         </div>
+  //       </div>
+
+  //       <!--模版3-->
+  //       <div class="fadeInUp" style="background-color: rgb(212, 234, 255);">
+  //         <div class="cloudWan-b3-content">
+  //           <div class="left t-color mobile-padding">
+  //             <div class="font-36 semi-bold m-text-center">骨干网连接 跨区域加速</div>
+  //             <div class="description font-20 mt-24">Zenlayer海外运营经验丰富，轻松解决跨国跨洲访问SaaS速度，助力企业将业务扩展至新兴市场</div>
+  //           </div>
+  //           <div class="right"><img src="https://www.reminisce.cn/huanxin/upload/WechatIMG1964.jpeg" alt="骨干网连接 跨区域加速">
+  //           </div>
+  //         </div>
+  //       </div>
+
+
+
+  //       <!--模版4-->
+  //       <div class="fadeInUp" style="background-color: rgb(212, 234, 255);">
+  //         <div class="gia-b2-content full-bg">
+  //           <div class="left"><img src="https://www.reminisce.cn/huanxin/upload/WechatIMG1964.jpeg" alt="端到端的加速"
+  //               class="main-pic"></div>
+  //           <div class="right">
+  //             <div class="font-36 semi-bold">端到端的加速</div>
+  //             <div class="font-20 mt-24 description">全球智能加速器（Global Intelligent
+  //               Accelerator）建立在Zenlayer全球专属骨干网络上，从第一公里到最后一公里，全程加快使用应用程序的每一个阶段，同时具备出色的传输速度及可靠性，最后一公里的连接平均在25毫秒以下
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+
+  //       <!--模版5-->
+
+  //       <div class="edcs-feature">
+  //         <div class="fadeInUp">
+  //           <div class="font-36 semi-bold t-color mobile-padding">快速连接全球用户</div>
+  //           <div class="edcs-feature-content">
+  //             <div class="edcs-feature-item"><img src="/products/edcs/feature-1.svg" alt="">
+  //               <div class="font-20 semi-bold t-color mt-32 title">25毫秒内连接全球85%以上的互联网用户</div>
+  //               <div class="mt-24 description" style="line-height: 24px;">从160+边缘节点中选择最近位置，以最小的延迟覆盖您的用户</div>
+  //             </div>
+  //             <div class="edcs-feature-item"><img src="/products/edcs/feature-2.svg" alt="">
+  //               <div class="font-20 semi-bold t-color mt-32 title">全球领先的边缘云，深入覆盖新兴市场</div>
+  //               <div class="mt-24 description" style="line-height: 24px;">
+  //                 Zenlayer边缘数据中心服务下沉至用户增长最快的的新兴市场：印度、东南亚、南美、俄罗斯、中东、非洲等</div>
+  //             </div>
+  //             <div class="edcs-feature-item"><img src="/products/edcs/feature-3.svg" alt="">
+  //               <div class="font-20 semi-bold t-color mt-32 title">新兴市场网络专家，本地服务经验</div>
+  //               <div class="mt-24 description" style="line-height: 24px;">充分利用Zenlayer与当地优质供应商的合作伙伴关系，创建最佳的混合网络</div>
+  //             </div>
+  //             <div class="edcs-feature-item"><img src="/products/edcs/feature-3.svg" alt="">
+  //               <div class="font-20 semi-bold t-color mt-32 title">新兴市场网络专家，本地服务经验</div>
+  //               <div class="mt-24 description" style="line-height: 24px;">充分利用Zenlayer与当地优质供应商的合作伙伴关系，创建最佳的混合网络</div>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+
+  //       <!--模版6-->
+  //       <div class="cloudWan-b4">
+  //         <div class="fadeInUp">
+  //           <div class="cloudWan-b4-content mobile-padding">
+  //             <div class="font-36 semi-bold t-color">分钟级部署</div>
+  //             <div class="description mt-24 font-20 block-middle" style="max-width: 1000px;">
+  //               CPE或虚拟CPE，远程零接触配置，快速部署访问SaaS的专用网路连接</div>
+  //           </div>
+  //           <img src="https://www.reminisce.cn/huanxin/upload/WechatIMG1964.jpeg" alt="端到端的加速"
+  //               class="main-pic">
+  //         </div>
+  //       </div>
+</script>
+
+</html>

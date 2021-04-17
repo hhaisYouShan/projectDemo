@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- <script src="./js/component---src-pages-index-tsx-0f7377b580b5525166ee.js" async=""></script> -->
+  <meta name="generator" content="Gatsby 2.21.37" />
+  <title data-react-helmet="true">寰信 | 全球领先的边缘云服务提供商</title>
+  <meta data-react-helmet="true" charSet="utf-8" />
+  <meta data-react-helmet="true" name="viewport" content="width = 640" initial-scale="1" />
+  <link href="./css/index.css" rel="stylesheet" type="text/css" media="all" />
+  <script src="./js/jqueryv3.6.0.js"></script>
+
+</head>
+
+<body>
+  <div id="___gatsby">
+    <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div>
+        <div class="index-topContainer" id="head">
+        </div>
+        <div class="index-partner" style="text-align: left;padding: 30px 0;">
+          <div class="flex" style="display: flex;">
+            <div class="ulList">
+              <div class="titleName">近期新闻</div>
+              <ul id="ulList"> </ul>
+            </div>
+
+
+            <div class="fadeInUp" style="width: 70%;">
+              <!--  -->
+              <div class="projectContent">
+                <div class="t-color semi-bold font-28" id="title">标题</div>
+                <div class="time" id="timeT">2020:12</div>
+              </div>
+              <div class="index-partner-group mt-64" style="margin-left: 10%;">
+                <div class="index-slider" id="new" style="width: 80%;">
+                  哈是的卡斯蒂略开会阿斯顿了哈
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="website-footer" id="footer">
+        </div>
+
+
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+
+        $("#head").load("top.html")
+         $("#footer").load("footer.html")
+
+
+        let getInformationInfoList_url = 'http://www.reminisce.cn/huanxin/api/information/getInformationList'
+
+        if (getUrlKey("productId")) {
+          getProductDetail(getUrlKey("productId"))
+        }
+        getInformationLists(1, 100)
+
+
+
+        //获取url 参数
+        function getUrlKey(name) {
+          let key, keyword = new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href);
+          key = keyword ? decodeURIComponent(keyword[1].replace(/\+/g, '%20')) : '';
+          return key;
+          // return decodeURIComponent(new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href)[1].replace(/\+/g, '%20')) || '';
+        }
+
+        //资讯列表
+        function getInformationLists(page, size) {
+          $.ajax({
+            type: 'post',
+            url: 'http://www.reminisce.cn/huanxin/api/information/getInformationList',
+            data: {
+              page,
+              size,
+            },
+            success: function (sc) {
+              let innHtml = ''
+              let list = sc.body.list
+              if (!getUrlKey("productId")) {
+                getProductDetail(list[0].id)
+              }
+
+              for (let i in list) {
+                innHtml += `<li class="font-20" onclick="getProductDetail(${list[i].id})">${list[i].title}</li>`
+              }
+
+              $('#ulList').html(innHtml)
+            },
+            async: false,
+          })
+        }
+
+      })
+
+
+
+    </script>
+    <script>
+      // 新闻详情
+      function getProductDetail(informationId) {
+        $.ajax({
+          type: "post",
+          url: 'http://www.reminisce.cn/huanxin/api/information/getInformationDetail',
+          data: {
+            informationId
+          },
+          success: function (sc) {
+            let title = sc.body.title
+            let cover_img = sc.body.cover_img;
+
+            let content = sc.body.content;
+            $("#title").html(title);
+            $("#new").html(content);
+            $("#timeT").html(sc.body.add_time)
+
+            //  $("#aboutUs").html(innHtml);
+
+          },
+          async: false,
+        });
+      }
+
+
+    </script>
+
+</body>
+
+</html>

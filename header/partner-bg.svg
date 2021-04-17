@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="640px" viewBox="0 0 1920 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="640"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F2FDFF" offset="0%"></stop>
+            <stop stop-color="#E0F9FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="109.413389%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#B3E5FF" offset="0%"></stop>
+            <stop stop-color="#E1F5FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页*" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920背景备份-2">
+            <g id="编组">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(196.000000, -36.000000)">
+                        <path d="M1469.75,696.75 C1437.02713,729.472871 1383.97287,729.472871 1351.25,696.75 C1318.52713,664.027129 1318.52713,610.972871 1351.25,578.25 L1410.5,519 L1410.5,519 L1469.75,578.25 C1502.47287,610.972871 1502.47287,664.027129 1469.75,696.75 Z" id="矩形备份-9" fill="url(#linearGradient-3)"></path>
+                        <g id="bg" stroke-width="1" fill="none" opacity="0.500395275">
+                            <g id="编组-28" fill="url(#linearGradient-4)">
+                                <g id="编组-23">
+                                    <g id="编组-22" transform="translate(0.000000, 40.000000)">
+                                        <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                    </g>
+                                    <g id="编组-22备份" transform="translate(0.000000, 80.000000)">
+                                        <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                    </g>
+                                </g>
+                                <g id="编组-22备份-2" transform="translate(0.000000, 120.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                                <g id="编组-22备份-3" transform="translate(0.000000, 160.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                                <g id="编组-22备份-4" transform="translate(0.000000, 200.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                                <g id="编组-22备份-5" transform="translate(0.000000, 240.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                            </g>
+                            <g id="编组-28备份" transform="translate(121.000000, 0.000000)" fill="url(#linearGradient-4)">
+                                <g id="编组-23">
+                                    <g id="编组-22" transform="translate(0.000000, 40.000000)">
+                                        <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                    </g>
+                                    <g id="编组-22备份" transform="translate(0.000000, 80.000000)">
+                                        <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                        <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                    </g>
+                                </g>
+                                <g id="编组-22备份-2" transform="translate(0.000000, 120.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                                <g id="编组-22备份-3" transform="translate(0.000000, 160.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                                <g id="编组-22备份-4" transform="translate(0.000000, 200.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                                <g id="编组-22备份-5" transform="translate(0.000000, 240.000000)">
+                                    <circle id="椭圆形" cx="4" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-4" cx="44" cy="4" r="4"></circle>
+                                    <circle id="椭圆形备份-5" cx="84" cy="4" r="4"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

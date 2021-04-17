@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Web/facebook-fill</title>
+    <g id="产品页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BMC" transform="translate(-1366.000000, -9183.000000)">
+            <g id="footer" transform="translate(0.000000, 8534.000000)">
+                <g id="-">
+                    <g transform="translate(1366.000000, 649.000000)">
+                        <g id="Icon/Web/facebook-fill">
+                            <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="28" height="28"></rect>
+                            <g id="编组">
+                                <rect id="矩形" stroke-opacity="0.01" stroke="#FFFFFF" stroke-width="0.1" opacity="0" fill-rule="nonzero" x="0" y="0" width="28" height="28"></rect>
+                                <path d="M24.12,3 L3.88,3 C3.39325,3 3,3.39325 3,3.88 L3,24.12 C3,24.60675 3.39325,25 3.88,25 L24.12,25 C24.60675,25 25,24.60675 25,24.12 L25,3.88 C25,3.39325 24.60675,3 24.12,3 Z M21.9971655,9.15267962 L20.185941,9.15267962 C18.765873,9.15267962 18.4909297,9.8184629 18.4909297,10.7975559 L18.4909297,12.9543581 L21.8809524,12.9543581 L21.4387755,16.3308304 L18.4909297,16.3308304 L18.4909297,25 L14.9563492,25 L14.9563492,16.3336278 L12,16.3336278 L12,12.9543581 L14.9563492,12.9543581 L14.9563492,10.4646643 C14.9563492,7.57494111 16.744898,6 19.3582766,6 C20.6111111,6 21.6853741,6.09231449 22,6.13427562 L22,9.15267962 L21.9971655,9.15267962 Z" id="形状" fill="#E1F3FE"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

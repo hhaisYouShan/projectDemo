@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="644px" viewBox="0 0 1920 644" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home-bg</title>
+    <defs>
+        <polygon id="path-1" points="0 -2.39520903e-12 1920 -2.39520903e-12 1920 644 0 644"></polygon>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#0CA8FD" offset="0%"></stop>
+            <stop stop-color="#4EC3FE" offset="99.284734%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-bg">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="蒙版"></g>
+            <path d="M1696,-96 C1786.5747,-96 1860,-22.574699 1860,68 C1860,158.574699 1786.5747,232 1696,232 C1605.4253,232 1532,158.574699 1532,68 C1532,-22.574699 1605.4253,-96 1696,-96 Z M1696,-40 C1635.80096,-40 1587,8.57710465 1587,68.5 C1587,128.422895 1635.80096,177 1696,177 C1756.19904,177 1805,128.422895 1805,68.5 C1805,8.57710465 1756.19904,-40 1696,-40 Z" id="形状结合" fill="#FFEFB3" mask="url(#mask-2)"></path>
+            <path d="M676.5,178 C711.017797,178 739,205.982203 739,240.5 C739,275.017797 711.017797,303 676.5,303 L614,303 L614,303 L614,240.5 C614,205.982203 641.982203,178 676.5,178 Z" id="矩形备份-9" fill="#B0EFFF" mask="url(#mask-2)" transform="translate(676.500000, 240.500000) rotate(135.000000) translate(-676.500000, -240.500000) "></path>
+            <path d="M1353,302 C1414.30383,302 1464,351.472315 1464,412.5 C1464,473.527685 1414.30383,523 1353,523 L1353,302 Z" id="Fill-1" fill="#7FE4B0" mask="url(#mask-2)" transform="translate(1408.500000, 412.500000) scale(-1, 1) rotate(90.000000) translate(-1408.500000, -412.500000) "></path>
+            <circle id="椭圆形" fill="url(#linearGradient-3)" mask="url(#mask-2)" cx="352" cy="598" r="183"></circle>
+        </g>
+    </g>
+</svg>

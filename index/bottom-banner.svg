@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="264px" viewBox="0 0 1920 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 45</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="264"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#B6F3D8" offset="0%"></stop>
+            <stop stop-color="#7FE4B0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#AFF4FF" offset="0%"></stop>
+            <stop stop-color="#77E6FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="首页*" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板">
+            <g id="编组-45">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(0.000000, -69.000000)">
+                        <g id="编组" opacity="0.25" transform="translate(0.000000, 38.000000)">
+                            <line x1="-1.0462551e-16" y1="89.25" x2="1930" y2="89.75" id="直线" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="-1.0462551e-16" y1="177.25" x2="1930" y2="177.75" id="直线备份" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="-7.84962373e-17" y1="266.25" x2="1924" y2="266" id="直线备份-2" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="88.5" y1="0.5" x2="89" y2="303" id="直线-2" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="176.5" y1="0.5" x2="177" y2="303" id="直线-2备份" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="264.5" y1="0.5" x2="265" y2="303" id="直线-2备份-2" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="352.5" y1="0.5" x2="353" y2="303" id="直线-2备份-3" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="440.5" y1="0.5" x2="441" y2="303" id="直线-2备份-4" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="528.5" y1="0.5" x2="529" y2="303" id="直线-2备份-5" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="616.5" y1="0.5" x2="617" y2="303" id="直线-2备份-6" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="704.5" y1="0.5" x2="705" y2="303" id="直线-2备份-7" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="792.5" y1="0.5" x2="793" y2="303" id="直线-2备份-8" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="880.5" y1="0.5" x2="881" y2="303" id="直线-2备份-9" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="968.5" y1="0.5" x2="969" y2="303" id="直线-2备份-10" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1056.5" y1="0.5" x2="1057" y2="303" id="直线-2备份-11" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1144.5" y1="0.5" x2="1145" y2="303" id="直线-2备份-12" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1232.5" y1="0.5" x2="1233" y2="303" id="直线-2备份-13" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1320.5" y1="0.5" x2="1321" y2="303" id="直线-2备份-14" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1408.5" y1="0.5" x2="1409" y2="303" id="直线-2备份-15" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1496.75" y1="0.5" x2="1497.25" y2="303" id="直线-2备份-16" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1584.75" y1="0.5" x2="1585.25" y2="303" id="直线-2备份-17" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1672.75" y1="0.5" x2="1673.25" y2="303" id="直线-2备份-18" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1760.75" y1="0.5" x2="1761.25" y2="303" id="直线-2备份-19" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                            <line x1="1848.75" y1="0.5" x2="1849.25" y2="303" id="直线-2备份-20" stroke="#C4CBD7" fill="#FFFFFF" fill-rule="nonzero"></line>
+                        </g>
+                        <g id="编组-45" transform="translate(848.000000, 0.000000)">
+                            <path d="M71,179 C133.960688,179 185,230.039312 185,293 C185,355.960688 133.960688,407 71,407" id="Fill-1" fill="url(#linearGradient-3)" transform="translate(128.000000, 293.000000) rotate(242.000000) translate(-128.000000, -293.000000) "></path>
+                            <path d="M396,0 C444.048773,0 483,38.9512268 483,87 C483,135.048773 444.048773,174 396,174 C347.951227,174 309,135.048773 309,87 C309,38.9512268 347.951227,0 396,0 Z M396.5,30 C364.743627,30 339,55.7436269 339,87.5 C339,119.256373 364.743627,145 396.5,145 C428.256373,145 454,119.256373 454,87.5 C454,55.7436269 428.256373,30 396.5,30 Z" id="形状结合" fill="#FFEFB3"></path>
+                            <path d="M684.5,188 C727.854353,188 763,223.145647 763,266.5 C763,309.854353 727.854353,345 684.5,345 L606,345 L606,345 L606,266.5 C606,223.145647 641.145647,188 684.5,188 Z" id="矩形备份-9" fill="url(#linearGradient-4)" transform="translate(684.500000, 266.500000) rotate(135.000000) translate(-684.500000, -266.500000) "></path>
+                            <circle id="椭圆形" stroke="#C3F5F3" opacity="0.527855283" fill-rule="nonzero" cx="567.5" cy="353.5" r="133"></circle>
+                            <path d="M382.5,149.5 L216,149.5 C207.301515,149.5 199.426515,153.025758 193.726136,158.726136 C188.025758,164.426515 184.5,172.301515 184.5,181 L184.5,266.5 L351,266.5 C359.698485,266.5 367.573485,262.974242 373.273864,257.273864 C378.974242,251.573485 382.5,243.698485 382.5,235 L382.5,149.5 Z" id="矩形" stroke="#A6C4FF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

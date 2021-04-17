@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cloudwan</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C5D4FF" offset="0%"></stop>
+            <stop stop-color="#93A9FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#0CA4FF" offset="0%"></stop>
+            <stop stop-color="#056BFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#0061E8" offset="0%"></stop>
+            <stop stop-color="#0032CC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#0061E8" offset="0%"></stop>
+            <stop stop-color="#0032CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Edge-Data-Center-Services" transform="translate(-1061.000000, -6893.000000)">
+            <g id="complete-solution" transform="translate(0.000000, 6635.000000)">
+                <g transform="translate(348.000000, 246.000000)" id="cloudwan">
+                    <g transform="translate(624.000000, 0.000000)">
+                        <g transform="translate(89.000000, 12.000000)">
+                            <rect id="矩形" x="0" y="0" width="110" height="110"></rect>
+                            <g id="绿cloudwan" transform="translate(0.000000, 16.296296)">
+                                <ellipse id="椭圆形" fill="url(#linearGradient-1)" transform="translate(54.940893, 39.853727) rotate(-19.090000) translate(-54.940893, -39.853727) " cx="54.9408927" cy="39.8537273" rx="50.3786807" ry="21.6048794"></ellipse>
+                                <path d="M64.5950625,1.14304725 C52.5272159,-2.00543911 39.7004785,1.4532215 30.8236097,10.2493374 C21.946741,19.0454534 18.3275936,31.8830695 21.2947747,44.0494327 L21.2947747,44.0494327 C25.4300344,60.9215616 41.0973299,72.3196773 58.3430363,71.0024172 C75.5887428,69.685157 89.3607748,56.0384091 90.9095917,38.7321194 C92.4584087,21.4258298 81.3302886,5.52983163 64.5950625,1.14304725 L64.5950625,1.14304725 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                                <ellipse id="椭圆形-3" fill="url(#linearGradient-3)" transform="translate(55.697710, 35.489310) rotate(-19.510000) translate(-55.697710, -35.489310) " cx="55.6977099" cy="35.4893096" rx="35.3798848" ry="13.4582725"></ellipse>
+                                <ellipse id="椭圆形-5" fill="#FFFFFF" transform="translate(55.185859, 35.493342) rotate(-19.420000) translate(-55.185859, -35.493342) " cx="55.1858591" cy="35.493342" rx="15.7828436" ry="5.87549718"></ellipse>
+                                <ellipse id="椭圆形-4" fill="url(#linearGradient-4)" transform="translate(86.333573, 53.535236) rotate(-67.500000) translate(-86.333573, -53.535236) " cx="86.3335735" cy="53.5352358" rx="9.01528374" ry="8.98568465"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

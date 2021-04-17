@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/product/Vurtal备份 2</title>
+    <defs>
+        <linearGradient x1="81.5219952%" y1="77.3880177%" x2="40.5844987%" y2="77.3880177%" id="linearGradient-1">
+            <stop stop-color="#0070EE" offset="0%"></stop>
+            <stop stop-color="#003DD9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="84.0312727%" y1="58.937163%" x2="25.116902%" y2="78.7037677%" id="linearGradient-2">
+            <stop stop-color="#007DF5" offset="0%"></stop>
+            <stop stop-color="#0047E7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon/product/Vurtal备份-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="资源-5">
+            <path d="M67.8444813,41.0053882 L67.1891374,41.0053882 L32.9160492,37.7635144 C31.9948103,37.6043597 31.0624023,37.5167229 30.127352,37.5014055 C22.9534285,37.3910438 12.1611705,43.7851226 12.0008204,54.90406 C11.9090247,64.5123594 19.5320689,72.4631675 29.2349689,72.8792157 L69.6710779,73.5 C77.7166938,72.2667495 83.7352037,65.541488 83.9980096,57.4906615 C84.1377082,48.5254706 76.9060088,41.1452539 67.8444813,41.0053882 Z" id="路径" fill="url(#linearGradient-1)"></path>
+            <path d="M32.1301621,30.0355664 C28.3061739,35.8576431 27.9613827,43.3006711 31.2307546,49.4511235 C35.607261,57.6404402 45.26368,61.4679465 54.0647856,58.5018283 C62.8658912,55.5357102 68.2332068,46.6449568 66.7565971,37.4783269 C65.2799875,28.311697 57.3920578,21.5547557 48.1044207,21.5005396 C41.6760235,21.4521151 35.6616073,24.6656104 32.1301621,30.0355664 Z" id="路径" fill="url(#linearGradient-2)"></path>
+            <rect id="矩形" stroke-opacity="0.0225906906" stroke="#FFFFFF" stroke-width="0.1" fill-rule="nonzero" x="0.05" y="0.05" width="95.9" height="95.9"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- <script src="./js/component---src-pages-index-tsx-0f7377b580b5525166ee.js" async=""></script> -->
+
+
+  <meta name="generator" content="Gatsby 2.21.37" />
+  <title data-react-helmet="true">寰信 | 全球领先的边缘云服务提供商</title>
+  <meta data-react-helmet="true" charSet="utf-8" />
+  <meta data-react-helmet="true" name="viewport" content="width = 640" initial-scale="1" />
+  <link href="./css/index.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- <link href="./css/index2.css" rel="stylesheet" type="text/css" media="all" /> -->
+  <!-- <link href="./css/slide.css" rel="stylesheet" type="text/css" media="all" /> -->
+  <script src="./js/jqueryv3.6.0.js"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+  <div id="___gatsby">
+    <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div>
+        <div class="index-topContainer" id="head">
+        </div>
+        <div id="resolveId">  
+        </div>
+        <div class="website-footer" id="footer">
+        </div>
+
+      </div>
+
+    </div>
+    <script>
+      document.write("<s" + "cript type='text/javascript' src='./js/ajax.js?" + "run=" + Math.random() + "'></s" + "cript>");
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#head").load("top.html")
+        $("#footer").load("footer.html")
+        //获取url 参数
+        function getUrlKey(name) {
+          let key, keyword = new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href);
+          key = keyword ? decodeURIComponent(keyword[1].replace(/\+/g, '%20')) : '';
+          return key;
+          // return decodeURIComponent(new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href)[1].replace(/\+/g, '%20')) || '';
+        }
+
+        let order_id = parseInt(getUrlKey('productId'));
+        getSolutionDetail(order_id)
+      })
+    </script>
+</body>
+
+
+</html>

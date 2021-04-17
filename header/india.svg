@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="23px" viewBox="0 0 32 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>india</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="31.9132791" height="22.8571429" rx="4"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#00E9AC" offset="0%"></stop>
+            <stop stop-color="#00CF74" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="框架" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="导航栏交互2-0730" transform="translate(-957.000000, -894.000000)">
+            <g id="编组备份" transform="translate(264.000000, 719.000000)">
+                <g id="subitem/Icon+text-hover备份-11" transform="translate(693.000000, 175.000000)">
+                    <g id="Icon/Flag/China">
+                        <g id="india">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="矩形备份-10" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <rect id="矩形" fill="url(#linearGradient-3)" mask="url(#mask-2)" x="0" y="0" width="32" height="6.85714286"></rect>
+                            <rect id="矩形备份" fill="#FDA562" mask="url(#mask-2)" x="0" y="16" width="32" height="7.61904762"></rect>
+                            <path d="M12.0248661,11.4285714 C12.0248661,13.6239773 13.8045942,15.4037054 16,15.4037054 C18.1954058,15.4037054 19.9751339,13.6239773 19.9751339,11.4285714 C19.9751339,9.23316558 18.1954058,7.4534375 16,7.4534375 C13.8045942,7.4534375 12.0248661,9.23316558 12.0248661,11.4285714 Z" id="路径" fill="#0052B4" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                            <path d="M13.5155357,11.4285714 C13.5155357,12.8007032 14.6278683,13.9130357 16,13.9130357 C17.3721317,13.9130357 18.4844643,12.8007032 18.4844643,11.4285714 C18.4844643,10.0564397 17.3721317,8.94410714 16,8.94410714 C14.6278683,8.94410714 13.5155357,10.0564397 13.5155357,11.4285714 L13.5155357,11.4285714 Z" id="路径" fill="#F0F0F0" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                            <polygon id="路径" fill="#0052B4" fill-rule="nonzero" mask="url(#mask-2)" points="16 8.36276786 16.7664732 10.1010714 18.6550446 9.89566964 17.5329018 11.4285714 18.6550446 12.9614732 16.7664732 12.7560714 16 14.494375 15.2335268 12.7560714 13.3449554 12.9614286 14.4670982 11.4285714 13.3449554 9.89566964 15.2335268 10.1010714"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

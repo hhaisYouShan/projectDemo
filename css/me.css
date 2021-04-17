@@ -1,0 +1,80 @@
+
+
+.slick-list .prev{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 228px;
+    opacity: 0;
+}
+.slick-list .next{
+  position: absolute;
+  top: 0;
+    right: 0;
+    width: 100px;
+    height: 228px;
+    opacity: 0;
+    margin-right: 0
+}
+
+.ulList{
+
+  list-style-type: disc;
+  width: 30%;
+
+
+}
+.ulList .titleName{
+  font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+    margin-left: 10%;
+    padding-left: 30px;
+    line-height: 80px;
+}
+.ulList ul{
+  margin-left: 20%;
+}
+.ulList ul li{
+  height: 50px;
+  line-height: 50px;
+
+}
+.projectContent{
+  border-bottom: 1px solid #ccc;
+  height: 80px;
+  margin-left: 10%;
+  width: 80%;
+}
+.projectContent .time{
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  color: #90939B;
+}
+
+
+#roll{
+                
+  width: 200%;
+
+}
+
+#roll dd{
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #00EE00; */
+  float: left;
+  margin-right: 30px;
+}
+#roll dd img{
+  width: 100%;
+  height: 100%;
+}
+
+#roll dd img:hover{
+  box-shadow: 0 8px 20px 0 rgba(8, 31, 94, .2) !important
+}
