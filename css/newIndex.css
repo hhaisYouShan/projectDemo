@@ -12431,7 +12431,7 @@
 
     @media screen and (min-width:800px) {
       .primaryNav-dropdown {
-        width: calc(100vw - 216px);
+        width: calc(100vw - 616px);
         right: 108px
       }
     }
@@ -16496,7 +16496,7 @@
       display: inline-block;
       position: relative;
       width: 392px;
-      min-height: 588px;
+      /* min-height: 588px; */
       border-radius: 16px;
       overflow: hidden;
       background: #f5f9ff;
