@@ -333,7 +333,7 @@ function setPrimaryNav(List, url) {
     <div class="primaryNav-navItem-1"><img src="${List[i].imgs}" class="icon" alt="" />
       <div class="name-desc">
         <p class="font-16">${List[i].title}</p>
-        <p class="desc font-12">定制化的主机托管、租赁解决方案 </p>
+        <p class="desc font-12"${List[i].content} </p>
       </div>
     </div>
     </span></a>
