@@ -68,13 +68,14 @@ function getInformationDetail(informationId) {
 }
 
 // Banner列表
-  function getBannerList(identifier) {
+  function getBannerList(identifier,id) {
     var p = new Promise(function(resolve,reject){
       $.ajax({
         type: 'post',
         url: getBannerList_url,
         data: {
           identifier,
+          id
         },
         success: function (sc) {
           resolve(sc.body)

@@ -37,8 +37,8 @@
           <div class="headerContainer" id="head"> </div>
           <div class="index-topIntro">
             <div class="index-topIntro-fadeIn">
-              <h1 class="index-topIntro-title semi-bold">快速提升全球用户数字体验</h1>
-              <div class="index-topIntro-subtitle block-middle" style="max-width:1000px">寰信边缘云助力企业迎接全球数字用户增长</div>
+              <h1 class="index-topIntro-title semi-bold" id="titleName">快速提升全球用户数字体验</h1>
+              <div class="index-topIntro-subtitle block-middle" style="max-width:1000px" id="titleDesc">寰信边缘云助力企业迎接全球数字用户增长</div>
               <div class="index-topIntro-btn">
                 <div style="display:inline-block"></div>
               </div>
@@ -71,6 +71,14 @@
 
         let order_id = parseInt(getUrlKey('productId'));
         getProductDetail(order_id)
+        getBannerList('solution',order_id).then(res => {
+        let data = res[0]
+        if (data) {
+        $(".index-topBg").css("background-image", `url(${data.img_url})`)
+        $("#titleName").text(data.title)
+        $("#titleDesc").text(data.desc)
+        }
+      })
       })
     </script>
 

@@ -15,6 +15,9 @@
   <link href="./css/me.css" rel="stylesheet" type="text/css" media="all" />
   <!-- <link href="./css/index.css" rel="stylesheet" type="text/css" media="all" /> -->
   <script src="./js/jqueryv3.6.0.js"></script>
+  <script>
+    document.write("<s" + "cript type='text/javascript' src='./js/ajax.js?" + "run=" + Math.random() + "'></s" + "cript>");
+  </script>
 
 </head>
 
@@ -23,17 +26,22 @@
     <div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper">
       <div>
         <div class="index-topContainer" >
+          <div class="index-topBgContainer" style="transform: translate3d(-0.421875%, -4.59893%, 0px);">
+            <div class="index-topBg" id="bannerBg">
+            </div>
+          </div>
           <div class="headerContainer" id="head"> </div>
           <div class="index-topIntro">
             <div class="index-topIntro-fadeIn">
-              <h1 class="index-topIntro-title semi-bold">快速提升全球用户数字体验</h1>
-              <div class="index-topIntro-subtitle block-middle" style="max-width:1000px">寰信边缘云助力企业迎接全球数字用户增长</div>
+              <h1 class="index-topIntro-title semi-bold" id="titleName">快速提升全球用户数字体验</h1>
+              <div class="index-topIntro-subtitle block-middle" style="max-width:1000px" id="titleDesc">寰信边缘云助力企业迎接全球数字用户增长</div>
               <div class="index-topIntro-btn">
                 <div style="display:inline-block"></div>
               </div>
             </div>
           </div> 
         </div>
+
         <div class="index-partner" style="text-align: left;padding: 30px 0;">
           <div class="flex" style="display: flex;">
             <div class="ulList">
@@ -69,6 +77,12 @@
 
         $("#head").load("top.html")
          $("#footer").load("footer.html")
+         getBannerList('information').then(res => {
+          let data = res[0]
+          $(".index-topBg").css("background-image", `url(${data.img_url})`)
+          $("#titleName").text(data.title)
+          $("#titleDesc").text(data.desc)
+        })
 
 
         let getInformationInfoList_url = 'http://www.reminisce.cn/huanxin/api/information/getInformationList'
@@ -80,6 +94,7 @@
 
 
 
+
         //获取url 参数
         function getUrlKey(name) {
           let key, keyword = new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href);
@@ -87,6 +102,7 @@
           return key;
           // return decodeURIComponent(new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href)[1].replace(/\+/g, '%20')) || '';
         }
+        
 
         //资讯列表
         function getInformationLists(page, size) {

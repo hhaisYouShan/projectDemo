@@ -421,13 +421,10 @@
 
 
       getBannerList('home').then(res => {
-        console.log("res", res)
         let data = res[0]
         $(".index-topBg").css("background-image", `url(${data.img_url})`)
         $("#titleName").text(data.title)
         $("#titleDesc").text(data.desc)
-
-
       })
 
       getInformationParList(1, 100)
