@@ -1,4 +1,6 @@
-
+#slickList{
+  height: 250px;
+}
 
 .slick-list .prev{
   position: absolute;

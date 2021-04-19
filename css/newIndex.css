@@ -12431,7 +12431,7 @@
 
     @media screen and (min-width:800px) {
       .primaryNav-dropdown {
-        width: calc(100vw - 216px);
+        width: calc(100vw - 616px);
         right: 108px
       }
     }
