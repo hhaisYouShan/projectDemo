@@ -71,7 +71,8 @@
 
         let order_id = parseInt(getUrlKey('productId'));
         getProductDetail(order_id)
-        getBannerList('solution',order_id).then(res => {
+        let id="product"+order_id
+        getBannerList(id).then(res => {
         let data = res[0]
         if (data) {
         $(".index-topBg").css("background-image", `url(${data.img_url})`)
