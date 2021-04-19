@@ -252,6 +252,7 @@ function getHomeInfo() {
       for(let j =0;j<newProductListLength;j++){
         let h=j+1
         setHtml(newProductList[j], colorList[j], '#itme'+h, headerImgList[j])
+        setH5Html(newProductList[j], colorList[j], '.index-productIntro-item-'+h, headerImgList[j])
       }
       
 
@@ -283,6 +284,27 @@ function setHtml(List, color, id, imgSrc) {
 
   $(id).html(innerHtml)
 }
+
+
+function setH5Html(List, color, id, imgSrc){
+  let innerHtml=`<a href="newProduct.html?productId=${List.id}">   <div class="index-productIntro-itemWrapper">
+  <div
+    style="background:linear-gradient(180deg,rgba(222,246,245,0.5) 0%,rgba(241,251,251,0.5) 100%)"
+    class="index-productIntro-item-normal">
+    <div class="index-productIntro-itemTitle font-28 semi-bold">${List.title}</div>
+    <div class="index-productIntro-itemDesc font-20">${List.content}</div>
+    <picture>
+      <source srcset="${imgSrc}" media="(max-width: 640px)"><img src="${imgSrc}"
+        alt="互联网转接服务" class="product-logo" style="width:160px;height:160px">
+    </picture>
+  </div>
+</div></a>`
+
+$(id).html(innerHtml)
+}
+
+
+
 //       <div class="primaryNav-dropdown-category">
 // <div class="font-16">计算</div>
 //<span style="cursor:pointer">
