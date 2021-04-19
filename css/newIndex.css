@@ -16496,7 +16496,7 @@
       display: inline-block;
       position: relative;
       width: 392px;
-      min-height: 588px;
+      /* min-height: 588px; */
       border-radius: 16px;
       overflow: hidden;
       background: #f5f9ff;

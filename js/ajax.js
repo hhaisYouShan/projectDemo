@@ -68,18 +68,24 @@ function getInformationDetail(informationId) {
 }
 
 // Banner列表
-function getBannerList(identifier) {
-  $.ajax({
-    type: 'post',
-    url: getBannerList_url,
-    data: {
-      identifier: 1,
-    },
-    success: function (sc) {
-      console.log('sc', sc)
-    },
-    async: false,
-  })
+  function getBannerList(identifier) {
+    var p = new Promise(function(resolve,reject){
+      $.ajax({
+        type: 'post',
+        url: getBannerList_url,
+        data: {
+          identifier,
+        },
+        success: function (sc) {
+          resolve(sc.body)
+          
+
+        },
+        async: false,
+      })
+    })
+    return p
+  
 }
 //关于我们
 function getAbout() {
@@ -111,7 +117,7 @@ function getAbout() {
           innerHtml+=setMoban6(detailList[i])
           break
           default:
-          console.log("detailList[i].type",detailList[i].type)
+          // console.log("detailList[i].type",detailList[i].type)
 
         }
       }
@@ -131,7 +137,7 @@ function getContactWays() {
     success: function (sc) {
       let bodyObj=sc.body
       
-      console.log("sc",sc)
+      // console.log("sc",sc)
       $("#yxId").text(`邮箱地址：${bodyObj.e_mail}`)
       $("#qqId").html(`在线沟通，请点我<a href="http://wpa.qq.com/msgrd?v=3&uin=${bodyObj.qq}&site=qq&menu=yes" target="_blank">在线咨询</a>`)
      $("#telId").html(`咨询热线：<br>${bodyObj.phone}<br>qq：<br>${bodyObj.qq}`)
@@ -152,7 +158,7 @@ function getInformationParList(page, size) {
       size,
     },
     success: function (sc) {
-      console.log('sc', sc)
+      // console.log('sc', sc)
       let list = sc.body.list
 
       // let listHrml=''
@@ -201,7 +207,7 @@ function getHomeInfo() {
 
       let newHtml = ''
       for (let i in solutionList) {
-        console.log("solutionList[i]",solutionList[i])
+        // console.log("solutionList[i]",solutionList[i])
       
         let newList = setPrimaryNav(
           solutionList[i].solutions,
@@ -213,7 +219,7 @@ function getHomeInfo() {
         </div>`
         newSolutionList.push(...solutionList[i].solutions)
       }
-      console.log("newHtml",newHtml)
+      // console.log("newHtml",newHtml)
       $('#resolveProject').html(newHtml)
 
 
@@ -300,17 +306,17 @@ function setHtml(List, color, id, imgSrc) {
 function setPrimaryNav(List, url) {
   let innerHtml = ''
   for (let i in List) {
-    // <a href="/${url}.html?productId=${List[i].id}">
-    innerHtml += ` <span style="cursor:pointer">
+    // 
+    innerHtml += ` <a href="/${url}.html?productId=${List[i].id} " style="margin: 0;display: inline"><span style="cursor:pointer">
     <div class="primaryNav-navItem-1"><img src="${List[i].imgs}" class="icon" alt="" />
       <div class="name-desc">
         <p class="font-16">${List[i].title}</p>
         <p class="desc font-12">定制化的主机托管、租赁解决方案 </p>
       </div>
     </div>
-    </span>
+    </span></a>
   `
-  // </a>
+  // 
   }
   return innerHtml
 }
@@ -351,7 +357,7 @@ function getProductDetail(productId) {
           innerHtml+=setMoban6(detailList[i])
           break
           default:
-          console.log("detailList[i].type",detailList[i].type)
+          // console.log("detailList[i].type",detailList[i].type)
 
         }
       }
@@ -399,7 +405,7 @@ function getSolutionDetail(solutionId) {
           innerHtml+=setMoban6(detailList[i])
           break
           default:
-          console.log("detailList[i].type",detailList[i].type)
+          // console.log("detailList[i].type",detailList[i].type)
 
         }
       }
@@ -420,7 +426,7 @@ function setMoban1(obj){
   style="background-image:url('${obj.imgs}'); background-position:center top;background-size: 100% 100%;">
   <div class="banner-topIntro page-middle" style="height: 500px;position: relative;">
     <h1 class="banner-topIntro-title semi-bold"style="color:#${obj.title_color}">${obj.title}</h1>
-    <div class="font-20 mt-24 semi-bold subtitle" style="color:#${obj.title_color}">${obj.desc}</div>
+    <div class="font-20 mt-24 semi-bold subtitle" style="color:#${obj.title_color};width: 50%">${obj.desc}</div>
   </div>
 </div>`
 
@@ -443,7 +449,7 @@ return innerHtml
 
 //模版3
 function setMoban3(obj){
-  let innerHtml=`<div class="fadeInUp" style="background-color: rgb(212, 234, 255);">
+  let innerHtml=`<div class="fadeInUp" >
   <div class="cloudWan-b3-content" style="display:flex ;align-items:center;justify-content:center;padding-top:0; padding:50px 0">
     <div class="left t-color mobile-padding">
       <div class="font-36 semi-bold m-text-center" style="color:#${obj.title_color}">${obj.title}</div>
@@ -459,7 +465,7 @@ return innerHtml
 
 //模版4
 function setMoban4(obj){
-  let innerHtml=`<div class="fadeInUp" style="background-color: rgb(212, 234, 255);">
+  let innerHtml=`<div class="fadeInUp" >
   <div class="gia-b2-content full-bg">
     <div class="left"><img src="${obj.imgs}" alt=""
         class="main-pic"></div>
