@@ -95,7 +95,7 @@ function getAbout() {
     url: getAbout_url,
     data: {},
     success: function (sc) {
-      let detailList = sc.body.list
+      let detailList = sc.body
       let innerHtml = ''
       for (let i in detailList) {
         switch (detailList[i].type){
