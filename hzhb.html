@@ -301,7 +301,7 @@
       $("#footer").load("footer.html")
 
 
-      getBannerList('home').then(res => {
+      getBannerList('partner').then(res => {
         console.log("res", res)
         let data = res[0]
         $(".index-topBg").css("background-image", `url(${data.img_url})`)
