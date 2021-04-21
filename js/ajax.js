@@ -530,10 +530,12 @@ function setMoban6(obj){
       <div class="font-36 semi-bold t-color"style="color:#${obj.title_color}">${obj.title}</div>
       <div class="description mt-24 font-20 block-middle" style="max-width: 1000px;color:#${obj.title_color}">
       ${obj.desc}</div>
-    </div>
-    <img src="${obj.imgs}" alt="端到端的加速" 
-        class="main-pic">
-  </div>
+    </div>`
+    if(obj.imgs){
+      innerHtml+=`<img src="${obj.imgs}" alt="端到端的加速" 
+      class="main-pic">`
+    }
+    innerHtml+= `</div>
 </div>`
 
 return innerHtml
