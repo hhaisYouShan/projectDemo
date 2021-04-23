@@ -55,6 +55,9 @@
       </div>
 
     </div>
+    <div id="slide">
+      
+    </div>
     <script>
       document.write("<s" + "cript type='text/javascript' src='./js/ajax.js?" + "run=" + Math.random() + "'></s" + "cript>");
     </script>
@@ -63,6 +66,7 @@
       $(document).ready(function () {
         $("#head").load("top.html")
         $("#footer").load("footer.html")
+        $("#slide").load("slide.html")
         //获取url 参数
         function getUrlKey(name) {
           let key, keyword = new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href);
