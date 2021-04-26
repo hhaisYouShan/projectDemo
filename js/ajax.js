@@ -141,8 +141,8 @@ function getContactWays() {
       // console.log("sc",sc)
       $("#yxId").text(`邮箱地址：${bodyObj.e_mail}`)
       // $("#qqId").html(`在线沟通，请点我<a href="http://wpa.qq.com/msgrd?v=3&uin=${bodyObj.qq}&site=qq&menu=yes" target="_blank">在线咨询</a>`)
-      $("#qqId").html(`qq：<br>${bodyObj.qq}`)
-      $("#telId").html(`咨询热线：<br>${bodyObj.phone}`)
+      $("#qqId").html(`qq：${bodyObj.qq}`)
+      $("#telId").html(`咨询热线：${bodyObj.phone}`)
       $("#wxId").html(`<img src="${bodyObj.wechat}" />`)
 
     },

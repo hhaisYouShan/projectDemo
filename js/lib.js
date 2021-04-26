@@ -35,16 +35,6 @@ $(function(){
      };
      // 绑定事件:
      $window.scroll(onScroll);
-
-
-
-
-
-
-
-
-
-
     $('.slide .icon li').not('.up,.down').mouseenter(function(){
         $('.slide .info').addClass('hover');
         $('.slide .info li').hide();
@@ -63,7 +53,6 @@ $(function(){
             $(this).removeClass('index_cy2');
             $(this).addClass('index_cy');
         }
-
     });
 
     // $(".backTop").click(function(){if(scroll=="off") return;$("html,body").animate({scrollTop: 0}, 600);});
