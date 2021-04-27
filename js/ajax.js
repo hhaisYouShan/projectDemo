@@ -144,7 +144,7 @@ function getContactWays() {
       // $("#qqId").html(`qq：${bodyObj.qq}`)
       $("#qqId").html(` <img src="../static/positionImg/QQ.png" style="width: 40px;height:30px;"/>
       <a target="_blank" href="https://wpa.qq.com/msgrd?v=3&amp;uin=${bodyObj.qq}&amp;site=qq&amp;menu=yes">
-        <img border="0" src="https://static.yun-gu.com/images/btn_qq.gif" alt="你爸爸" title="你爸爸"></a>`)
+        <img border="0" src="https://static.yun-gu.com/images/btn_qq.gif" alt="father" title="father"></a>`)
       $("#telId").html(`咨询热线：${bodyObj.phone}`)
       $("#wxId").html(`<img src="${bodyObj.wechat}" />`)
 
