@@ -140,8 +140,11 @@ function getContactWays() {
 
       // console.log("sc",sc)
       $("#yxId").text(`邮箱地址：${bodyObj.e_mail}`)
-      // $("#qqId").html(`在线沟通，请点我<a href="http://wpa.qq.com/msgrd?v=3&uin=${bodyObj.qq}&site=qq&menu=yes" target="_blank">在线咨询</a>`)
-      $("#qqId").html(`qq：${bodyObj.qq}`)
+      // $("#qqId").html(`<a href="http://wpa.qq.com/msgrd?v=3&uin=${bodyObj.qq}&site=qq&menu=yes" target="_blank">在线咨询</a>`)
+      // $("#qqId").html(`qq：${bodyObj.qq}`)
+      $("#qqId").html(` <img src="../static/positionImg/QQ.png" style="width: 30px;height:30px;"/>
+      <a target="_blank" href="https://wpa.qq.com/msgrd?v=3&amp;uin=${bodyObj.qq}&amp;site=qq&amp;menu=yes">
+        <img src="https://static.yun-gu.com/images/btn_qq.gif" style="width:90px; height:30px;" alt="father" title="father"></a>`)
       $("#telId").html(`咨询热线：${bodyObj.phone}`)
       $("#wxId").html(`<img src="${bodyObj.wechat}" />`)
 
